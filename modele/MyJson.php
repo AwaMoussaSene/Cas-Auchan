@@ -2,7 +2,7 @@
 
 
 class MyJson{
-    private string $fileName="Date/data.json";
+    private string $fileName="Data/data.json";
     public function toArray($key=null){
         $json=file_get_contents($this->fileName);
        $dec=json_decode($json,true);
